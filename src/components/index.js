@@ -1,2 +1,2 @@
 export * from './NavBarComponents/NavBarComponet';
-export * from './ItemListContainer/ItemListContainerComponent';
+export * from './ItemListContainerComponents/ItemListContainerComponent';

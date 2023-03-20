@@ -1,11 +1,11 @@
 import './App.module.css';
-import { NavBarComponet } from './components';
+import { NavBarComponet, ItemListContainerComponent } from './components';
 
 function App() {
   return (
     <div className="title">
       <NavBarComponet />
-      <p>Hola React</p>
+      <ItemListContainerComponent/>
     </div>
   );
 }
