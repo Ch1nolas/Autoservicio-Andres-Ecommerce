@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Carne Molida",
+    "category": " Carnes",
+    "img": "",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "name": "Asado",
+    "category": " Carnes",
+    "img": "",
+    "price": 200
+  },
+  {
+    "id": 3,
+    "name": "Chorizo Intermedio",
+    "category": " Carnes",
+    "img": "",
+    "price": 200
+  }
+]
