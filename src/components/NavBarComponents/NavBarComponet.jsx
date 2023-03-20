@@ -20,10 +20,10 @@ export const NavBarComponet = () => {
             <Button variant="dark" className='button-search'>Buscar</Button>
           </li>
           <li>
-            <a href="#">Mi Carrito</a>
+            <a href="#">Mi Cuenta</a>
           </li>
           <li>
-            <a href="#">Carrito</a>
+            <a href="#">Carrito<i class="fa fa-shopping-cart"></i></a>
           </li>
         </ul> 
       </div>
