@@ -3,21 +3,70 @@
     "id": 1,
     "name": "Carne Molida",
     "category": " Carnes",
-    "img": "",
+    "img": "./img/products/carne-molida.png",
     "price": 100
   },
   {
     "id": 2,
     "name": "Asado",
     "category": " Carnes",
-    "img": "",
+    "img": "./img/products/asado.png",
     "price": 200
   },
   {
     "id": 3,
     "name": "Chorizo Intermedio",
     "category": " Carnes",
-    "img": "",
+    "img": "./img/products/chorizo-intermedio.png",
     "price": 200
+  },
+  {
+    "id": 4,
+    "name": "Coca Cola 2.5L",
+    "category": "Bebidas",
+    "img": "./img/products/cocacola25.png",
+    "price": 650
+  },
+  {
+    "id": 5,
+    "name": "Sprite 500ml",
+    "category": "Bebidas",
+    "img": "./img/products/sprite500.png",
+    "price": 250
+  },
+  {
+    "id": 6,
+    "name": "Andes Origen",
+    "category": "Cervezas",
+    "img": "./img/products/andes-origen",
+    "price": 500
+  },
+  {
+    "id": 7,
+    "name": "Zucaritas",
+    "category": "Cereales",
+    "img": "./img/products/zucaritas.png",
+    "price": 250
+  },
+  {
+    "id": 8,
+    "name": "Salamín",
+    "category": "Embutidos",
+    "img": "./img/salamin.png",
+    "price": 250
+  },
+  {
+    "id": 9,
+    "name": "Stella Stories",
+    "category": "Cervezas",
+    "img": ".img/products/stellastories.png",
+    "price": 650
+  },
+  {
+    "id": 10,
+    "name": "Leche Entera LS Caja",
+    "category": " Lacteos",
+    "img": "./img/products/ls-entera-caja.png",
+    "price": 400
   }
 ]
