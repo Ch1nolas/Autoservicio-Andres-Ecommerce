@@ -1,11 +1,12 @@
 import './App.module.css';
-import { NavBarComponet, ItemListContainerComponent } from './components';
+import { NavBarComponet, ItemListContainerComponent, ItemListDetailContainer } from './components';
+import { MainRoutes } from './routes/MainRoutes';  
 
 function App() {
   return (
     <div className="title">
-      <NavBarComponet />
-      <ItemListContainerComponent/>
+      <NavBarComponet/>
+      <MainRoutes />
     </div>
   );
 }

@@ -6,18 +6,18 @@ export const NavBarComponet = () => {
   return (
     <div className='header'>
       <div className='navegation'>
-        <a href="#"><img src="./img/Logo.png" alt="Logo" className='logo' /></a>
+        <a href="/"><img src="./img/Logo.png" alt="Logo" className='logo' /></a>
         <ul className='navbar'>
           <li>
           <NavDropdown id="nav-dropdown-dark-example" title="Categorias">
-              <NavDropdown.Item href="#">Carnes</NavDropdown.Item>
-              <NavDropdown.Item href="#">Cereales</NavDropdown.Item>
-              <NavDropdown.Item href="#">Embutidos</NavDropdown.Item>
+              <NavDropdown.Item href="/catalog">Carnes</NavDropdown.Item>
+              <NavDropdown.Item href="/catalog">Cereales</NavDropdown.Item>
+              <NavDropdown.Item href="/catalog">Embutidos</NavDropdown.Item>
             </NavDropdown>
           </li>
           <li className='searchbar-container'>
             <input type="search" className='bar-search' placeholder='!Hola¡ Busca tu producto aquí'/>
-            <Button variant="dark" className='button-search'>Buscar</Button>
+            <Button className='button-search'>Buscar</Button>
           </li>
           <li>
             <a href="#">Mi Cuenta</a>
