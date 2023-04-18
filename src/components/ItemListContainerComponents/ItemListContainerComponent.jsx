@@ -23,6 +23,7 @@ export const ItemListContainerComponent = () => {
                 <RenderProducts name="Carne Molida"/>
                 <RenderProducts name="Asado"/>
                 <RenderProducts name="Coca cola"/>
+                <RenderProducts name="Fernet"/>
             </div>
         </div>
     )
