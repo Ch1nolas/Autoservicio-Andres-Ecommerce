@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, Catalog, ItemDetail, PokemonCard } from "../pages/"
+import { Home, Catalog, ItemDetail, Item } from "../pages/"
 
 export const MainRoutes = () => {
 
@@ -8,7 +8,7 @@ export const MainRoutes = () => {
       <Routes>
         <Route exact path="/" element={<Home />}/>
         <Route exact path="/catalog" element={<Catalog />}/>
-        <Route exact path="/pokemon" element={<PokemonCard />}/>
+        <Route exact path="/items" element={<Item />}/>
       </Routes>
     </Router>
   )

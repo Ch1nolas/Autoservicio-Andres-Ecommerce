@@ -2,11 +2,12 @@ import React, { useEffect } from 'react';
 import axios from 'axios';
 import './App.module.css';
 import { NavBarComponet, ItemListContainerComponent } from './components';
-import { PokemonCard } from './pages';
+import { Item, PokemonCard } from './pages';
 import { MainRoutes } from './routes/MainRoutes';  
 
+/* https://pokeapi.co/api/v2/pokemon/?limit=100 */
 const promesaPokemon = new Promise((resolve, reject) => {
-  const url = "https://pokeapi.co/api/v2/pokemon/?limit=100";
+  const url = "./data.json";
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
@@ -19,11 +20,11 @@ const promesaPokemon = new Promise((resolve, reject) => {
 
 
 function App() {
-  useEffect(() => {
-    fetch('./data.json')
-      .then(res=>res.json())
-      .then(data => console.log(data))
-  }, []);
+  // useEffect(() => {
+  //   fetch('./data.json')
+  //     .then(res=>res.json())
+  //     .then(data => console.log(data))
+  // }, []);
   
    
 
@@ -35,7 +36,8 @@ function App() {
     .then((data) => {
     setLoading(true);
     setData(data.results);
-    console.log(data.results);
+    console.log(data); 
+    setData(data.map(productos => <Item item={productos} />)) 
     })
     .catch((error) => {
       console.log(error);
@@ -44,6 +46,7 @@ function App() {
       setLoading(false);
     });
   });
+
 
   return (
     <div className="title">
@@ -54,9 +57,7 @@ function App() {
           <div>Loading...</div>
         ): (
           <div className='pokemon-container'>
-            {data.map((pokemon, index) => {
-              return <PokemonCard pokemon={pokemon} index= {index} />;
-            })}
+            {data}
           </div>
         )}
       </div>
