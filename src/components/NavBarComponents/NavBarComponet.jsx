@@ -25,6 +25,9 @@ export const NavBarComponet = () => {
           <li>
             <a href="#">Carrito<i class="fa fa-shopping-cart"></i></a>
           </li>
+          <li>
+            <p>hola</p>
+          </li>
         </ul> 
       </div>
     </div>
